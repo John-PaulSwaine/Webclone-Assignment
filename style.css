@@ -1,0 +1,93 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    min-width: 100vw;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+#about, #store {
+    margin: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+#gmail, #images, #apps {
+    margin: 20px;
+}
+
+#signIn {
+    margin: 20px;
+    background-color: blue;
+    color: white;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /* margin-bottom: 1000px; */
+}
+
+#mainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#extraBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+}
+
+#foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    min-width: 100vw;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+#ads, #business, #how, #privacy, #terms, #settings {
+    margin: 20px;
+}
